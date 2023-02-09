@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(57, 106, 121);
+}
+h1 {
+    text-align: center;
+    color: wheat;
+}
+table {
+    align-content: center;
+    text-align: center;
+    width: 100px;
+    border: 1.5px solid black;
+    padding: 3.5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(222, 23, 33);
+    box-shadow: 5px 5px;
+
+}
+input[type="display"] {
+    width: 90%;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(182, 190, 25);
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+}
+
+td :hover{
+    background-color: blue;
+}
+
+
+
+#checking {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+
+#tape {
+    align-items: center;
+    background-color: wheat;
+    width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

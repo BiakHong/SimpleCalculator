@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        
+    </head>
+
+    <body>
+        
+        <h1>Lian' Calculator</h1>
+        <div id="checking">
+            <input type="checkbox" id="taping" onchange="tapeCheckBox()"/>
+            <label id="tapeLable" >Check to hide the Tape</label>
+          </div>
+        
+        <table id="calculator">
+            
+            <tr>
+                <th colspan="4"><input type="display" id="display"></th>
+
+            </tr>
+
+            <tr>
+                <td><input type="button" value="1" onclick="numButton('1')"> </td>
+                <td><input type="button" value="2" onclick="numButton('2')"> </td>
+                <td><input type="button" value="3" onclick="numButton('3')"> </td>
+        
+                <td><input type="button" value="+" onclick="opButton('+')"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="numButton('4')"> </td>
+                <td><input type="button" value="5" onclick="numButton('5')"> </td>
+                <td><input type="button" value="6" onclick="numButton('6')"> </td>
+                <td><input type="button" value="-" onclick="opButton('-')"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="numButton('7')"> </td>
+                <td><input type="button" value="8" onclick="numButton('8')"> </td>
+                <td><input type="button" value="9" onclick="numButton('9')"> </td>
+                <td><input type="button" value="*" onclick="opButton('*')"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="numButton('0')"> </td>
+                <td><input type="button" value="." onclick="numButton('.')"> </td>
+                <td><input type="button" value=" √ " onclick="opButton('sqrt')"> </td>
+                
+                <td><input type="button" value="/" onclick="opButton('/')"> </td>
+            </tr>
+            <tr>
+                
+                <td><input type="button" value="C" onclick="clearIt()"> </td>
+                <td><input type="button" value="X!" onclick="opButton('X!')"> </td>
+                <td><input type="button" value="^2" onclick="opButton('pwr')"> </td>
+                <td><input type="button" value="=" onclick="equalClick()"> </td>
+            </tr>
+            </table>
+
+            <br>
+            <br>
+            <div id="tape" style="display: none">
+            </div>
+            
+           
+    </body>
+
+    <script src="calculator.js"></script>
+</html>
